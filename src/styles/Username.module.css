@@ -1,0 +1,32 @@
+.glass {
+  background: rgba(16, 15, 15, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #4747470b;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  @apply border-4 border-gray-50 shrink-0   desktop:w-[40%] mobile:w-[100%] rounded-3xl desktop:py-20 mobile:py-10 desktop:px-7 ;
+}
+.profile_img {
+  @apply border-4 border-gray-100 desktop:w-[135px] laptop:w-[135px] mobile:w-[80px] rounded-full shadow-lg cursor-pointer;
+  @apply hover:border-gray-200;
+}
+.textbox {
+  @apply border-0 px-5 desktop:py-4 mobile:py-1 rounded-xl w-3/4 shadow-sm text-lg mobile:text-sm;
+  @apply focus:outline-none;
+}
+
+.btn {
+  @apply border bg-indigo-700  w-3/4 desktop:py-4 mobile:py-2 rounded-lg text-gray-50 text-xl shadow-sm text-center;
+}
+/*bg-indigo-500*/
+.btn:hover {
+  /* background-color: #4a506e; */
+  @apply bg-neutral-900;
+}
+input[type='file'] {
+  display: none;
+}
+@media (max-width : 400px){
+  
+}
